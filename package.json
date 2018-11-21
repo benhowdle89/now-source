@@ -1,0 +1,15 @@
+{
+  "name": "now-source",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  },
+  "scripts": {
+    "dev": "babel src --watch --out-dir dist --source-maps",
+    "build": "babel src --out-dir dist"
+  }
+}
